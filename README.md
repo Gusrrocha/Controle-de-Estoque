@@ -1,5 +1,5 @@
 # Controle-de-Estoque
-Website criado com o intuito de gerenciar o controle de estoque.
+Website criado com o intuito de gerenciar estoques.
 
 Integrantes:  
 
