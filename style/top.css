@@ -1,0 +1,24 @@
+#top-content:not(#direita)
+{
+    grid-area: top-content;
+    color: white;
+    width:100%;
+    height:100%;
+    display: flex;
+    /* background: rgb(2,0,36); */
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(44,73,142,1) 11%, rgba(0,73,255,1) 47%, rgba(7,158,134,1) 96%); */
+    align-items:center;
+    justify-content: center;
+    outline:double 10px;
+}
+#logo figcaption
+{
+    position: relative;
+    left: 0;
+}
+#direita
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+

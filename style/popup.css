@@ -1,0 +1,87 @@
+
+.popup {
+    position: fixed;
+    min-width: 1280px;
+    min-height: 870px;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.popup-content {
+    border-radius: 25px;
+    font-size: 12px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888888;
+    width: 50%;
+    height:50%;
+    font-weight: bolder;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+#form1
+{
+    margin-top: 60px;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    opacity: 1;
+    transition: all 0.3s ease;
+    transform: scale(1.2);
+    row-gap: 10px;
+    
+}
+.dados
+{
+    position:relative;
+    max-width:400px;
+}
+.botao
+{
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 14px 22px;
+    border: none;
+    background: #4070f4;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 15px;
+    margin-right:10px;
+}
+.popup-content button {
+    display:none;
+    position: absolute;
+    float: right;
+    top: 0px;
+    right: 0px;
+    background-color: white;
+    color: red;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+.popup-content button:hover
+{
+    cursor: pointer;
+}
+.show {
+display: block;
+}
